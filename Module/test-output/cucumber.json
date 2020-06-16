@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "positive login scenario",
+        "description": "",
+        "id": "login-feature;positive-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 239294300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on login",
+            "match": {
+              "location": "LoginSteps.user_is_on_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user enter username and password",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "Parameter"
+                ],
+                "line": 5
+              },
+              {
+                "cells": [
+                  "komal",
+                  "komu@123",
+                  "param1"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "komu",
+                  "komu@78",
+                  "param2"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "anvi",
+                  "anu4",
+                  "param3"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user clicks on submit",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user is on Home page",
+            "match": {
+              "location": "LoginSteps.user_is_on_Home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
