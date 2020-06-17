@@ -6,12 +6,14 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 /*
 @RunWith(Cucumber.class)
-@CucumberOptions(features="features",glue="com.KHS.Stepdef",dryRun=false,monochrome=true,plugin= {"pretty","json:test-output/cucumber.json","html:out/cucumber.html","junit:out/cucmber.xml"})
+@CucumberOptions(features="features",glue="com.KHS.Stepdef",dryRun=true,monochrome=true,plugin= {"pretty","json:test-output/cucumber.json","html:out/cucumber.html","junit:out/cucmber.xml"})
 public class TestRunner {
 
 }*/
 @RunWith(Cucumber.class)
-@CucumberOptions(features="features",glue="com.KHS.Stepdef",dryRun=false,monochrome=true,plugin= {"pretty","json:test-output/cucumber.json","html:out/cucumber.html","junit:out/cucmber.xml"})
+@CucumberOptions(features="features",glue="com.KHS.Stepdef",dryRun=false,monochrome=true,plugin= {"pretty","json:test-output/cucumber.json","html:out/cucumber.html","junit:out/cucmber.xml"}
+//tags= {"@smoke"}
+)
 public class TestRunner {
 
 }

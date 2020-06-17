@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.239294">
-<testcase classname="Login feature" name="positive login scenario" time="0.239294">
-<skipped><![CDATA[Given user is on login......................................................passed
-When user enter username and password.......................................undefined
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="4" time="0.257629">
+<testcase classname="Login feature" name="positive login scenario" time="0.257221">
+<skipped><![CDATA[Given webDriver initialize..................................................passed
+Given user is on login......................................................passed
+When user enter "komal"and "komu@123".......................................undefined
 And user clicks on submit...................................................skipped
 Then user is on Home page...................................................skipped
 ]]></skipped>
+</testcase>
+<testcase classname="Login feature" name="positive login scenario 2" time="0.000084">
+<skipped><![CDATA[Given webDriver initialize..................................................passed
+Given user is on login......................................................passed
+When user enter "amit"and "curie@8".........................................undefined
+And user clicks on submit...................................................skipped
+Then user is on Home page...................................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="Login feature" name="Homepage scenario" time="0.000176">
+<system-out><![CDATA[Given webDriver initialize..................................................passed
+When we click on Login......................................................passed
+Then we are on Homepage.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="Title" time="0.000148">
+<system-out><![CDATA[Given webDriver initialize..................................................passed
+When user is on homepage....................................................passed
+Then check the title of page................................................passed
+]]></system-out>
 </testcase>
 </testsuite>
